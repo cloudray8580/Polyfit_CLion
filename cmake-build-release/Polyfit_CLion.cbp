@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Polyfit_CLion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/Polyfit_CLion/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/Polyfit_CLion/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/Polyfit_CLion/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Polyfit_CLion">
+				<Option output="/mnt/d/Polyfit_CLion/cmake-build-release/Polyfit_CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Polyfit_CLion/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DILOUSESTL"/>
+					<Add option="-DIL_STD"/>
+					<Add directory="/mnt/d/PGM-index/include"/>
+					<Add directory="/mnt/d/stxbtree/stx-btree-0.9/include"/>
+					<Add directory="/mnt/d/boostlinux/boost_1_74_0"/>
+					<Add directory="/mnt/d/CPLEXLinux/concert/include"/>
+					<Add directory="/mnt/d/CPLEXLinux/cplex/include"/>
+					<Add directory="/mnt/d/ensmallen/ensmallen-2.14.0/ensmallen-2.14.0/include"/>
+					<Add directory="/mnt/d/xgboost/include"/>
+					<Add directory="/mnt/d/RadixSpline/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 Polyfit_CLion"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Polyfit_CLion/fast">
+				<Option output="/mnt/d/Polyfit_CLion/cmake-build-release/Polyfit_CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/Polyfit_CLion/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DILOUSESTL"/>
+					<Add option="-DIL_STD"/>
+					<Add directory="/mnt/d/PGM-index/include"/>
+					<Add directory="/mnt/d/stxbtree/stx-btree-0.9/include"/>
+					<Add directory="/mnt/d/boostlinux/boost_1_74_0"/>
+					<Add directory="/mnt/d/CPLEXLinux/concert/include"/>
+					<Add directory="/mnt/d/CPLEXLinux/cplex/include"/>
+					<Add directory="/mnt/d/ensmallen/ensmallen-2.14.0/ensmallen-2.14.0/include"/>
+					<Add directory="/mnt/d/xgboost/include"/>
+					<Add directory="/mnt/d/RadixSpline/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 Polyfit_CLion/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/d/Polyfit_CLion/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/Polyfit_CLion/DBest.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/EntropyHistogram.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/FITingTree.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/ICTAI1997.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/MethodTesting.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/MultiResolutionTree.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/PGM.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/Polyfit.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/Polyfit2D.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/Polyfit_1D.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/Polyfit_2D.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/RMI.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/RadixSpline.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/S2Sampling.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/SWAB.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/SimpleRTree.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/VerdictDB.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/aRtree.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/experiments.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/main.cpp">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/test.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/utils.h">
+			<Option target="Polyfit_CLion"/>
+		</Unit>
+		<Unit filename="/mnt/d/Polyfit_CLion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

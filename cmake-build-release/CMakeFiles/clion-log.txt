@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -O2 -fopenmp -G "CodeBlocks - Unix Makefiles" /mnt/d/Polyfit_CLion
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/d/Polyfit_CLion/cmake-build-release
